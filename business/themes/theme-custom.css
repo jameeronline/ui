@@ -1,0 +1,92 @@
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v18-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Roboto'), local('Roboto-Regular'),
+       url('../fonts/roboto-v18-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-v18-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-v18-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto-v18-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-500 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/roboto-v18-latin-500.eot'); /* IE9 Compat Modes */
+  src: local('Roboto Medium'), local('Roboto-Medium'),
+       url('../fonts/roboto-v18-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-v18-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-v18-latin-500.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto-v18-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto-v18-latin-500.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-700 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-v18-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Roboto Bold'), local('Roboto-Bold'),
+       url('../fonts/roboto-v18-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-v18-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-v18-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto-v18-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto-v18-latin-700.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+:root {
+  --theme-color : #2B89C9;
+  --base-font-family: 'Roboto', sans-serif;
+  --sidebar-width: 20rem;
+  --link-color : #2B89C9;
+  --mark-padding: 0.5em 2rem;
+  --content-max-width: auto;
+}
+
+.medium-zoom-image{
+    padding: 6px;
+    background: rgb(241, 241, 241);	
+}
+
+mark{
+    padding: 6px;	
+}
+
+.docsify-tabs__tab{
+    font-size: 14px;
+    font-weight: bold;	
+    outline: none;
+    cursor: pointer;
+}
+
+.sidebar>h1 .app-name-link{
+  pointer-events: none;
+}
+
+.more-dots{
+  display: inline-block;
+  width: 44px;
+  text-align: center;  
+}
+
+.more-dots span{
+  display: block;
+  width: 4px;
+  height: 4px;
+  background: #6b6b6b;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 3px;
+}
+
+.markdown-section code:not([class*="lang-"]):not([class*="language-"]){
+  background: #212121;
+}
+
+.app-nav a:hover{
+  color: #00ab67 !important;
+}
