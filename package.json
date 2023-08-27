@@ -1,0 +1,25 @@
+{
+  "name": "uiguides",
+  "version": "1.0.0",
+  "description": "> An HTML template has been designed to be applied to all services. All service pages are group of components. Here listed some common components used across all services.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "docsify serve ./docs",
+    "init": "docsify init ./docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameeronline/ui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jameeronline/ui/issues"
+  },
+  "homepage": "https://github.com/jameeronline/ui#readme",
+  "dependencies": {
+    "docsify-cli": "^4.4.4"
+  }
+}
