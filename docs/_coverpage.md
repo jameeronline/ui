@@ -1,6 +1,6 @@
 ![logo](images/absher.png ':size=200x200:disabled')
 
-# Absher <br/>UI Standards
+# Absher UI Standards
 
 > Overview of the UI Components and how to get started with a simple template. 
 
