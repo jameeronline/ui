@@ -7,10 +7,10 @@
 			<span></span>
 		</p>		
 		<ul>
-			<li><a href="/portal/uiguides/">Home</a></li>
-			<li><a href="/portal/uiguides/business/#/README" class="active">Business</a></li>
-			<li><a href="/portal/uiguides/individuals/#/README">Individuals</a></li>
-			<li><a href="/portal/uiguides/hybrid/#/README">Hybrid</a></li>
+			<li><a href="/ui/">Home</a></li>
+			<li><a href="/ui/business/#/README" class="active">Business</a></li>
+			<li><a href="/ui/individuals/#/README">Individuals</a></li>
+			<li><a href="/ui/hybrid/#/README">Hybrid</a></li>
 		</ul>
 		</li>
 	</ul>
