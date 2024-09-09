@@ -1,0 +1,44 @@
+function CustomAlert1() {
+    this.render = function(c, a) {
+        var d = window.innerWidth
+          , b = window.innerHeight
+          , e = document.getElementById("dialogoverlay")
+          , f = document.getElementById("dialogbox");
+        e.style.display = "block";
+        e.style.height = b + "px";
+		if(window.innerWidth >= 540)	
+		{
+			f.style.left = d / 2 - 275 + "px";
+		}
+		else
+		{
+			f.style.left = "0px";
+		}
+        
+        f.style.top = "50px";
+        f.style.display = "block";
+        //a ? (document.getElementById("dialogboxhead").innerHTML = a,
+
+        document.getElementById("dialogboxhead").style.display = 'none';
+        document.getElementById("dialogboxheadar").style.display = "none";
+        document.getElementById("dialogboxbody").innerHTML = `
+		<a href="#f" class="close-link" onclick="Alert.ok()" >
+        <i class="close"></i></a>
+        <div class="videoBox">
+        <video id="video1" width="320" autoplay controls>
+        <source src="${c}" type="video/mp4">
+        </video>
+        </div>
+        
+        `;
+        document.getElementById("dialogboxfoot").style.display = "none";
+        document.getElementById("dialogboxfootar").style.display = "none";
+    }
+    ;
+    this.ok = function() {
+        document.getElementById("dialogbox").style.display = "none";
+         document.getElementById("dialogboxbody").innerHTML = '';
+        document.getElementById("dialogoverlay").style.display = "none"
+    }
+}
+var VideoAlert = new CustomAlert1;
